@@ -12,9 +12,9 @@ namespace 文字提取小程序
     {
         string ImagePath = string.Empty;
         JObject OutResult = default;
-        private string APP_ID = "";
-        private string API_Key = "";
-        private string SECRE_KEY = "";
+        private string APP_ID = "";//此项获取自百度平台
+        private string API_Key = "";//此项获取自百度平台
+        private string SECRE_KEY = "";//此项获取自百度平台
         static void Main(string[] args)
         {
             Program p = new Program();
