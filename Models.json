@@ -1,0 +1,90 @@
+{
+    "Model": [
+        {
+            "Num": 1,
+            "Name": "通用文字识别",
+            "Method_Name": "GeneralBasic",
+            "Free_Times": 50000,
+            "Description": "识别某张图中的所有文字"
+        },
+        {
+            "Num": 2,
+            "Name": "通用文字识别（高精度版）",
+            "Method_Name": "AccurateBasic",
+            "Free_Times": 500,
+            "Description": "文字识别该产品精度更高，但是识别耗时会稍长"
+        },
+        {
+            "Num": 3,
+            "Name": "通用文字识别（含位置信息版）",
+            "Method_Name": "General",
+            "Free_Times": 500,
+            "Description": "识别某张图中的所有文字，并返回文字在图中的位置信息"
+        },
+        {
+            "Num": 4,
+            "Name": "通用文字识别（含位置高精度版）",
+            "Method_Name": "Accurate",
+            "Free_Times": 500,
+            "Description": "识别某张图中的所有文字，并返回文字在图片中的坐标信息，相对于通用文字识别（含位置信息版）该产品精度更高，但是识别耗时会稍长"
+        },
+        {
+            "Num": 5,
+            "Name": "通用文字识别（含生僻字版）",
+            "Method_Name": "GeneralEnhanced",
+            "Free_Times": 0,
+            "Description": "识别中文不光有常用字，还包含了生僻字"
+        },
+        {
+            "Num": 6,
+            "Name": "网络图片文字识别",
+            "Method_Name": "WebImage",
+            "Free_Times": 500,
+            "Description": "识别一些网络上背景复杂，特殊字体的文字"
+        },
+        {
+            "Num": 7,
+            "Name": "身份证识别",
+            "Method_Name": "Idcard",
+            "Free_Times": 500,
+            "Description": "识别身份证，身份证识别包括正面和背面"
+        },
+        {
+            "Num": 8,
+            "Name": "银行卡识别",
+            "Method_Name": "Bankcard",
+            "Free_Times": 500,
+            "Description": "识别银行卡并返回卡号和发卡行"
+        },
+
+        {
+            "Num": 9,
+            "Name": "驾驶证识别",
+            "Method_Name": "DrivingLicense",
+            "Free_Times": 200,
+            "Description": "对机动车驾驶证所有关键字段进行识别"
+        },
+        {
+            "Num": 10,
+            "Name": "行驶证识别",
+            "Method_Name": "VehicleLicense",
+            "Free_Times": 200,
+            "Description": "对机动车行驶证所有关键字段进行识别"
+        },
+        {
+            "Num": 11,
+            "Name": "车牌识别",
+            "Method_Name": "LicensePlate",
+            "Free_Times": 200,
+            "Description": "识别机动车车牌，并返回签发地和号牌"
+        },
+        {
+            "Num": 12,
+            "Name": "通用票据识别",
+            "Method_Name": "Receipt",
+            "Free_Times": 200,
+            "Description": "识别医疗票据、发票、的士票、保险保单等票据类图片中的所有文字，并返回文字在图中的位置信息"
+        }
+    ]
+   
+}
